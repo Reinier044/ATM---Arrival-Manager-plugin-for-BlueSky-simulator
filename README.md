@@ -6,7 +6,7 @@ The scenario files should be pasted in the scenario folder. Now start BlueSky an
 An explanation of the functionality is given below.
 
 
-Introduction
+# Introduction
 For the Air Traffic Management course, a plugin was designed that adds functionality to the BlueSky Air
 Traffic simulator. This plugin is an Arrival Manager (AMAN) that can assist in sequencing arriving aircraft.
 The plugin periodically outputs the predicted arrival sequence to the BlueSky command window.
@@ -19,6 +19,7 @@ Working principles
 
 
 
+# Working Principles
 The arrival manager works based on trajectory estimations. However, before a trajectory can be estimated,
 the aircraft on the radar should be filtered. This is done by a few criteria. First, all aircraft
 with their destination corresponding the selected airport are taken. These aircraft flight plans are then
@@ -75,7 +76,7 @@ and stays green. The second in row will receive a red color marking and should t
 to arrive a bit later.
 
 
-conclusion
+# conclusion
 In order to show the functionality of the plugin, an example scenario has been created. This scenario is
 called ”AMANscenario” and has a high density inboud peak from the east arriving at Schiphol. These
 flights have identifiers specified by KL2xx. There is also some traffic from the west, which is there to
