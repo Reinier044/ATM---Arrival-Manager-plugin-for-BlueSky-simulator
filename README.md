@@ -76,7 +76,7 @@ and stays green. The second in row will receive a red color marking and should t
 to arrive a bit later.
 
 
-# conclusion
+# Conclusion
 In order to show the functionality of the plugin, an example scenario has been created. This scenario is
 called ”AMANscenario” and has a high density inboud peak from the east arriving at Schiphol. These
 flights have identifiers specified by KL2xx. There is also some traffic from the west, which is there to
